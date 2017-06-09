@@ -1,10 +1,47 @@
-.navbar-inverse {
-    background-image: linear-gradient(to bottom,  #1D4A21, #1F4C25, #1F4C25, #27512B, #2D5532, #325A37, #3C5F3F, #436445, #436445, #456647 );
+* {
+    box-sizing: border-box;
+}
 
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #1D4A21, #1F4C25, #1F4C25, #27512B, #2D5532, #325A37, #3C5F3F, #436445, #436445, #456647);
     border: none;
 }
 
-.container{
+.navbar-header {
+    clear: both;
+}
+
+#topNav {
+    padding: 10px;
+}
+
+.container {
     margin: 0px;
     padding: 0px;
+}
+
+#photoHolder {
+    float: left;
+}
+
+.logoFarms {
+    width: 158px;
+    height: 125px;
+    margin-left: 20px;
+}
+
+#navLinkRight {
+    font-family: 'Alegreya', serif;
+    float: right;
+    margin: 37px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+li {
+    margin-right: 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #B69354;
 }
