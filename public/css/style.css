@@ -1,0 +1,10 @@
+.navbar-inverse {
+    background-image: linear-gradient(to bottom,  #1D4A21, #1F4C25, #1F4C25, #27512B, #2D5532, #325A37, #3C5F3F, #436445, #436445, #456647 );
+
+    border: none;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}

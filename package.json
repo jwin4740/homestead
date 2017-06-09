@@ -1,0 +1,24 @@
+{
+  "name": "homestead",
+  "version": "1.0.0",
+  "description": "farms website template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwin4740/homestead.git"
+  },
+  "author": "James J Winkle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwin4740/homestead/issues"
+  },
+  "homepage": "https://github.com/jwin4740/homestead#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
