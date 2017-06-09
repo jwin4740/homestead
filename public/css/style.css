@@ -2,9 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0px;
+    background-image: url('../images/subtlergray.jpg');
+    background-size: cover;
+}
+
 .navbar-inverse {
     background-image: linear-gradient(to bottom, #1D4A21, #1F4C25, #1F4C25, #27512B, #2D5532, #325A37, #3C5F3F, #436445, #436445, #456647);
     border: none;
+    border-radius: 0px;
 }
 
 .navbar-header {
@@ -13,11 +20,7 @@
 
 #topNav {
     padding: 10px;
-}
-
-.container {
-    margin: 0px;
-    padding: 0px;
+    margin-bottom: 0px;
 }
 
 #photoHolder {
@@ -32,10 +35,11 @@
 
 #navLinkRight {
     font-family: 'Alegreya', serif;
-    float: right;
-    margin: 37px;
-    font-weight: bolder;
-    font-size: 20px;
+    float: left;
+    margin-top: 37px;
+    margin-left: 200px;
+    font-weight: 550;
+    font-size: 17px;
 }
 
 li {
@@ -43,5 +47,30 @@ li {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #B69354;
+    color: #C79D59;
+}
+
+#memberLogin {
+    margin-left: 150px;
+    font-weight: bolder;
+}
+
+#mainDiv {
+
+}
+
+img.slide-image {
+    margin: auto;
+}
+.slidesDiv{
+    margin-top: 50px;
+    height: 350px;
+}
+.footerP {
+
+    text-align: center;
+}
+
+#farmSign{
+    margin-top: 50px;
 }
